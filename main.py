@@ -1,1 +1,3 @@
-print("hallo")  # This is a simple Python script that prints "hallo" to the console
+import streamlit as st
+
+st.title("這是首頁")
