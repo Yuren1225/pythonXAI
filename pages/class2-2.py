@@ -21,3 +21,10 @@ if st.button("按我", key="snow"):
 # st.button()可以在網頁上顯示一個按鈕，使用者可以點擊按鈕
 # key式按鈕的識別名稱，可以用來區分不同按鈕
 # 如果使用者點擊按鈕，st:button()會回傳true，否則回傳false
+st.title("奇偶數判斷器")
+number = st.number_input("請輸入數字", step=1)
+st.write(f"你輸入的數字是: {number}")
+if number % 2 == 0:  # 如果數字是偶數
+    st.write("這是偶數")
+else:  # 如果數字是奇數
+    st.write("這是奇數")
